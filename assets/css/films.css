@@ -12,3 +12,14 @@
     color: var(--text-color);
 }
   
+.section-scroll button:hover {
+  background-color: var(--bg-color);
+  border: 1px solid var(--bg-color);
+  color: var(--text-color);
+}
+
+.section-scroll button:focus {
+  outline: none;
+  border: 2px solid var(--bg-color);
+  color: var(--text-color);
+}
