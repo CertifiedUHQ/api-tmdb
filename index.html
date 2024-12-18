@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr_FR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="./assets/js/script.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      class="link-icon"
+      rel="icon"
+      href="./assets/img/Logo.png"
+      type="image/x-icon"
+    />
+    <title>Films Populaire</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <div>
+            <li>
+              <img src="./assets/img/logo.png" alt="Slyzz Teams" width="90px" />
+            </li>
+          </div>
+          <div class="nav-last">
+            <div class="search">
+              <li>
+                  <img src="./assets/img/search.png" alt="Search" class="search-icon"/>
+                  <input id="search-input" type="text" placeholder="Recherchez"/>
+              </li>
+          </div>
+            <div class="a-header">
+              <li>
+                <a class="home-header" href="./index.html">Acceuil</a>
+              </li>
+              <li>
+                <a class="films-header" href="./pages/films.html">Films</a>
+              </li>
+              <li>
+                <a class="series-header" href="./pages/series.html">Séries</a>
+              </li>
+            </div>
+          </div>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="div-container-search">
+        <button id="arrow-left-search" class="arrow-btn">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <div class="popular-list-container-search">
+          <div class="popular-list-search"></div>
+        </div>
+        
+        <button id="arrow-right-search" class="arrow-btn">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+
+      <section class="section-scroll">
+        <button id="popular">Populaires</button>
+        <button id="now-playing">Du moment</button>
+        <button id="upcoming">À venir</button>
+        <button id="top-rated">Les mieux évalués</button>
+      </section>
+
+      <a class="name-section" id="films" href="./pages/Films.html"><h2>Films</h2></a>
+      <div class="div-container">
+        <button id="arrow-left" class="arrow-btn">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <div class="popular-list-container">
+          <div class="popular-list"></div>
+        </div>
+
+        <button id="arrow-right" class="arrow-btn">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+
+      <a class="name-section" id="films" href="./pages/series.html"><h2>Séries</h2></a>
+      <div class="div-container-series">
+        <button id="arrow-left-series" class="arrow-btn">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <div class="popular-list-container-series">
+          <div class="popular-list-series"></div>
+        </div>
+
+        <button id="arrow-right-series" class="arrow-btn">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+    </main>
+    <footer>
+      <div>
+        <ul>
+          Explorez
+          <li>Accueil</li>
+          <li>Shop</li>
+          <li>contact</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          Suivez-nous
+          <li>Instagram</li>
+          <li>Facebook</li>
+          <li>Twitter</li>
+          <li>Pinterest</li>
+          <li>Youtube</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          Ressources
+          <li>FAQ</li>
+          <li>Conditions générales de vente</li>
+          <li>Politique de confidentialité</li>
+          <li>Mentions légales</li>
+          <li>Guide du collectionneur</li>
+        </ul>
+      </div>
+      <div><ul>
+        © 2024 [Nom du site] – Tous droits réservés.
+        <li> "Films - Séries"</li>
+        <li>Newsletter : Contactez-nous</li>
+          <li><a id="paid" target=_blank href="https://paypal.me/N0aMercier">📧 Give me money</a></li>
+        <li>📍 Paris, France ☎️</li>
+        <li>+33 (0)1 23 45 67 89</li>
+      </ul></div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+:root {
+  --bg-color: #191917;
+  --text-color: #B4CBD2;
+  --red-color : #BF2121;
+}
+
+.home-header {
+  color: var(--text-color);
+}
+
+.series-header {
+  color: var(--red-color);
+}
+
+.section-scroll button {
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: var(--bg-color);
+  width: 20%;
+  border-radius: 10px;
+  border: 1px solid var(--bg-color);
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+
+.popular-list, .popular-list-series {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.section-scroll button:hover {
+  border: 1px solid var(--bg-color);
+  color: var(--text-color);
+}

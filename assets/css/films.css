@@ -1,0 +1,14 @@
+:root {
+    --bg-color: #191917;
+    --text-color: #B4CBD2;
+    --red-color : #BF2121;
+  }
+
+.films-header {
+    color: var(--red-color);
+  }
+  
+.series-header {
+    color: var(--text-color);
+}
+  
