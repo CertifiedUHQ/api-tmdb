@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="../assets/css/series.css" />
     <link rel="stylesheet" href="../assets/css/films.css" />
     <link class="link-icon" rel="icon" href="../assets/img/Logo.png" type="image/x-icon"/>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"
+    integrity="sha512-f5HTYZYTDZelxS7LEQYv8ppMHTZ6JJWglzeQmr0CVTS70vJgaJiIO15ALqI7bhsracojbXkezUIL+35UXwwGrQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
     <title>Films Populaires</title>
   </head>
   <header>
@@ -56,9 +62,9 @@
       </button>
     </div>
     <section class="section-scroll">
-      <a class="name-section" href="./pages/Films.html">Films populaires</a>
+      <a class="name-section rellax" data-rellax-speed="2" href="./pages/Films.html">Films populaires</a>
     </section>
-    <div id="container" class="div-container">
+    <div id="container" class="div-container rellax" data-rellax-speed="1">
         <div class="popular-list"></div>
       </div>
     </div>
@@ -115,5 +121,8 @@
       </ul>
     </div>
   </footer>   
-  </body>   
+  </body>  
+  <script>
+    var rellax = new Rellax(".rellax");
+  </script> 
 </html>
