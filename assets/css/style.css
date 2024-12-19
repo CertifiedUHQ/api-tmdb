@@ -6,11 +6,27 @@ body {
     box-sizing: border-box;
 }
 
+
 :root {
     --bg-color: #191917;
     --text-color: #B4CBD2;
     --red-color : #BF2121;
 }
+
+::-webkit-scrollbar {
+    width: 0.5rem;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(128, 128, 128, 0.5);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(128, 128, 128, 0.8); 
+}
+
 
 
 .logo {
@@ -120,6 +136,11 @@ nav ul div {
 
 #films, #series {
     padding-top: 5rem;
+}
+
+.movie-container-search:hover {
+    transition: 0.3s ease;
+    transform: scale(1.02);
 }
 
 
